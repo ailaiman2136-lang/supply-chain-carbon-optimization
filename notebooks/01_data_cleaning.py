@@ -19,7 +19,7 @@ df_shipment['customs_clearance_time_days'] = pd.to_numeric(df_shipment['customs_
 median_clearance = df_shipment['customs_clearance_time_days'].median()
 df_shipment['customs_clearance_time_days'] = df_shipment['customs_clearance_time_days'].fillna(median_clearance)
 
-# Clean whitespace out of string fields
+# Clean whitespace out of string fields 
 df_shipment['O_Country'] = df_shipment['O_Country'].str.strip()
 df_shipment['D_Country'] = df_shipment['D_Country'].str.strip()
 
