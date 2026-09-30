@@ -49,5 +49,5 @@ df_master = df_master[~df_master['D_Country'].str.isnumeric()]
 os.makedirs(f"{data_dir}/processed", exist_ok=True)
 df_master.to_csv(f"{data_dir}/processed/cleaned_master_logistics.csv", index=False)
 
-print("🚀 Success! Data pipeline executed cleanly.")
+print(" Success! Data pipeline executed cleanly.")
 print(f"Master dataset saved with {df_master.shape[0]} rows and {df_master.shape[1]} columns.")
