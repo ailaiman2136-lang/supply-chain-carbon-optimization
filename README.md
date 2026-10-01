@@ -33,7 +33,7 @@ Instead of manually fixing records, a production-grade Python script sanitizes i
 ### 📊 2. Deep-Dive Statistical Analytics (Screen 2)
 To prove the physical mechanism driving financial losses, a dedicated statistical deep-dive layer was modeled right inside the application.
 
-<img src="images/analytics_2.png" width="600" alt="Statistical Analytics Heatmap & Scatter Chart"/>
+<img src="images/analytics.png" width="600" alt="Statistical Analytics Heatmap & Scatter Chart"/>
 
 - **Correlation Heatmap Matrix:** Formatted to 2 decimal places with custom diverging color rules mapping from `-1` to `1` to isolate high-risk supply chain dependencies.
 - **Linear Scatter Plotting:** Explicitly visuals the tight linear relationship tracking how route delays directly scale environmental fuel waste.
